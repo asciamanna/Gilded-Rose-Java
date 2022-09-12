@@ -7,11 +7,12 @@ repositories {
 }
 
 dependencies {
-    testCompile 'org.assertj:assertj-core:3.11.1'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
-    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.6.2'
-    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.6.2'
-    testImplementation 'com.approvaltests:approvaltests:5.0.0'
+    implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+    implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+    testCompile 'org.assertj:assertj-core:3.23.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.9.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
 }
 
 group = 'com.gildedrose'
